@@ -1,4 +1,17 @@
 {
   "spellright.language": ["en"],
-  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "code-runner-output",
+    "python"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "spellright.parserByClass": {
+    "code-runner-output": {
+      "parser": "code"
+    }
+  }
 }

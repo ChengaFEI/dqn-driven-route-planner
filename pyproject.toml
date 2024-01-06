@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dqn-driven-route-planner"
+version = "0.1.0"
+description = "A Deep Q Network implementation project."
+authors = ["Cheng Fei <cf482@cornell.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+tensorflow = ">=2.0.0"
+requests = "^2.31.0"
+urllib3 = "^2.1.0"
+haversine = "^2.8.0"
+numpy = "^1.26.3"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
